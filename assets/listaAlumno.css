@@ -1,0 +1,61 @@
+/*Color verde para el estado de activo*/
+.estado-activo{
+    background-color: #3eee3e;
+    border:2px solid green;
+    color: black; /*texto de color negro*/
+    padding: 3px;
+}
+/* Color rojo claro para el estado en riesgo */
+.estado-riesgo {
+    background-color: #f40501; /* Fondo rojo claro */
+    border: 2px solid red; /* Borde rojo */
+    color: black; /* Texto en negro */
+    padding: 5px;
+}
+/* Estilo para estado desconocido o sin estado */
+.estado-desconocido {
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid black; /* Borde negro */
+    color: black; /* Texto en negro */
+    padding: 5px;
+    border-collapse: collapse;
+}
+.tabla{
+    background-color: rgba(42, 147, 203, 0.836);  
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-collapse: collapse;
+    height: 25px;
+    border-bottom: 1px solid rgb(210, 220, 250);
+    position: relative ;
+    left: 300px ;
+}
+/*la position y el left, son esenciales para moverlos a la derecha*/
+.principal{
+    width: 140px;
+    text-align:center;
+    height: 30px;
+    border: 0.5px solid rgba(240, 240, 240, 10);
+    position: relative;
+    left:300px;
+    list-style:none ;
+}
+  .principal:hover{
+    background-color: rgba(82, 76, 76, 0.836);
+    color: white;
+  }
+  td {
+    height: 30px;
+    border: 0.5px solid rgba(240, 240, 240, 10);
+  }
+  
+  tfoot {
+    font-weight: bold;
+  }
+  
+  /*Pseudo-clases*/
+  
+h1{
+    text-align: center;
+}

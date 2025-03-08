@@ -1,0 +1,17 @@
+
+.nav-item{
+    list-style: none;
+    position: relative;
+    left: 220px; /* Ajusta este valor según el ancho de tu menú lateral */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 38%;
+    border-radius: 0;
+    background: rgb(38, 121, 38);
+    
+}
+.nav-link{
+    color: rgba(250, 246, 246, 0.859);
+    background-color: #2e722f;
+}

@@ -1,0 +1,194 @@
+.modulos{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    
+}
+h1{
+    text-align: center;
+
+}
+.name{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+    
+}
+.matricula{
+    margin: 7px;
+    width: 200px;
+    border-radius: 2px;
+}
+.group{
+    margin:7px;
+    width: 200px;
+    border-radius: 2px;
+}
+.tel{
+    margin: 7px;
+    width: 200px;
+    border-radius: 2px;
+}
+.tutor{
+    margin:7px;
+    width: 200px;
+    border-radius: 2px;
+}
+.telefonoTutor{
+    margin:7px;
+    width: 200px;
+    border-radius: 1px;
+}
+.estado{
+    margin:7px;
+    
+}
+.guardar{
+    margin:10px;
+    border-radius: 30px;
+}
+/*Aqui termina modulo de alumnos*/
+
+/*Aqui empieza el modulo de profesores*/
+.Maestros{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+
+h2{
+    text-align:center;
+    margin-top: 60px;
+}
+.nombre{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+     
+}
+.telefono {
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.empleado{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+    
+}
+.correo{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+    
+}
+.especialidad{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+    
+}
+.btn{
+    border-radius: 20px;
+    background-color: rgba(45, 187, 45, 0.767);
+    text-decoration: white ;
+    width: 60% ;
+    height:4.5vh;
+    padding: 10px;
+    border:none;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(117, 204, 24) ;
+}
+
+/*Aqui ira el update ALUMNO*/
+.update{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+.numeroAlumno{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.grupo{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.telefono{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.nombreTutor{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.numeroTelefono{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+
+/*aqui empieza UPDATE MAESTRO*/
+.updateMaestro{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:77vh;
+    
+    margin: 1px;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+.docente{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.telefonoDocente{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.numeroEmpleado{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.correo{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;  
+}
+.materiaEspecializada{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.botonMaestro{
+    border-radius: 5px;
+    width: 80%;
+    background-color: rgba(45, 187, 45, 0.767);
+    
+}
+
+
+

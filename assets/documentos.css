@@ -1,0 +1,97 @@
+/* Títulos */
+h2 {
+    text-align: center;
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Formulario de carga */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Buscador básico */
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: auto;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+button[type="submit"]:hover {
+    background-color: #f4f4f4;
+}
+
+/* Lista de documentos */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.desktop {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.desktop strong {
+    font-weight: bold;
+}
+
+.desktop a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.desktop a:hover {
+    background-color: #007bff;
+    color: white;
+}

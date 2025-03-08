@@ -1,0 +1,54 @@
+.materiasUpdate{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:77vh;
+    margin: 1px;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+h2{
+    text-align:center;
+    margin-top: 60px;
+}
+.nombre{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.matricula{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.grupo{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.problema{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.solucion{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+}
+.boton{
+    border-radius: 5px;
+    width: 80%;
+    background-color: rgba(45, 187, 45, 0.767);
+}
+
+/*Apoyo y salud update*/
+.updateApoyo{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:77vh;
+    margin: 1px;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}

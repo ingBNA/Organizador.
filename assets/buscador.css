@@ -1,0 +1,29 @@
+.busca{
+    width: 60%;
+    position: relative;
+    left:200px;
+    
+    
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espacio debajo de la tabla */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #076907b8;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+
+}

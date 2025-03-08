@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+.login-container{
+    background-color: #fff;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align:center;
+  }
+  .boton{
+    border-radius: 40px;
+    background: rgb(4, 176, 4);
+    text-decoration: white ;
+    width: 90%;
+    padding: 8px;
+    border:none;
+    cursor:pointer;
+} 
+/*cambia el color cuando toca el boton */ 
+.boton:hover{
+    background-color: rgba(4, 176, 4, 0.749);
+}
+  .boton2{
+    background: rgb(4,176,4);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight:bold;
+}
+.caja{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:transparent;
+    border:none;
+    border-radius: 5px;;
+    text-align:center;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  

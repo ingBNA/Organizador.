@@ -1,0 +1,63 @@
+.modulos{
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:82vh;
+    margin: 0;
+    background-color: #f0f0f0;
+
+}
+.nombre{
+        margin:7px;
+        width: 200px; 
+        border-radius: 2px;
+}
+.materia{
+    margin:7px;
+        width: 200px; 
+        border-radius: 2px;
+
+}
+.grupo{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+
+}
+.problema{
+    margin:7px;
+        width: 200px; 
+        border-radius: 2px;
+
+}
+.solucion{
+    margin:7px;
+    width: 200px; 
+    border-radius: 2px;
+
+}
+.guardar{
+    margin:10px;
+    border-radius: 30px;
+    width: 120px;
+    background: rgb(17, 116, 17);
+    color:white
+}
+.guardar:hover{
+    background-color: rgb(40, 149, 40);
+}
+h2{
+    text-align: center;
+}
+
+/**/
+.ApoyoSalud{
+    display: flex;
+    justify-content:center;
+    height:85vh;
+    background-color: #f0f0f0;
+}
+h2{
+    text-align: center;
+}
